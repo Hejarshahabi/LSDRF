@@ -19,7 +19,6 @@ from pyrsgis import raster
 gdal.UseExceptions()
 import sklearn as sk
 from sklearn.model_selection import train_test_split
-from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 from sklearn.ensemble import RandomForestClassifier
 
